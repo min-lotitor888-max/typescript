@@ -60,13 +60,41 @@
 
 ## Тестирование
 
-Для тестирования используется Jest.
+## Установка
 
-Запуск тестов:
+```bash
+npm install
+```
+
+## Запуск
+
+```bash
+npm start
+```
+
+## ESLint
+
+```bash
+npm run lint
+```
+
+## Тесты
+
+```bash
 npm test
+```
 
-Запуск тестов с проверкой покрытия:
+## Coverage
+
+```bash
 npm run coverage
+```
+
+## Production-сборка
+
+```bash
+npm run build
+```
 
 Покрытие кода:
 
@@ -74,22 +102,9 @@ Statements — 100%
 Branch — 100%
 Functions — 100%
 Lines — 100%
-Проверка ESLint
-
-Запуск проверки:
-npm run lint
 
 Автоматическое исправление ошибок:
 npm run lint:fix
-
-Сборка проекта
-Production-сборка выполняется командой:
-
-npm run build
-
-Для запуска проекта в режиме разработки:
-
-npm start
 
 Результат проверки
 
